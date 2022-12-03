@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="form.css">
+<h1 id="title">How can NBA improve their entertainment value?</h1>
+<p id="description">Thank you for your time to help NBA improve</p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label name-label>Name:</label>
+    <input placeholder="name"id="name"type="text" required/>
+  </div>
+
+  <div class="input-element">
+    <label email-label>Email:</label>
+    <input placeholder="email"id="email"type="email" required/>
+  </div>
+
+  <div class="input-element">
+    <label number-label>Age:</label>
+    <input id="number" placeholder="age"type="number" min="5" max="100" required/>
+  </div>
+
+  <div class="input-element">
+    <label select-label>Who's ypur favorite team?</label>
+    <select id="dropdown">
+      <option>Bucks</option>
+      <option>Timberwolves</option>
+      <option>Lakers</option>
+    </select>
+  </div>
+
+   <div>
+    <label>Have you been to a game before?</label>
+    <div>
+      <label><input type="radio" name="game"value="yes"/>Yes</label>
+    </div>
+    <div>
+      <label><input type="radio" name="game"value="no"/>No</label>
+    </div>
+  </div>
+
+  <div>
+    <label>Which Suggestions are good ideas for NBA to implements?</label>
+    <div>
+      <label><input type="checkbox" name="ideas"value="playin"/>Play in Game</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="ideas"value="tickets"/>Cheaper Tickets</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="ideas"value="food"/>Cheaper Food</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="ideas"value="calls"/>Less Ref Calls</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="ideas"value="superteam"/>Super Teams</label>
+    </div>
+  </div>
+
+  <div class="input-element">
+    <label>Additional Comments</label>
+    <textarea type="text"></textarea>
+  </div>
+
+  <button type="submit" id="submit">
+    Submit
+  </button>
+
+ 
+
+</form>
